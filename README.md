@@ -15,7 +15,7 @@
 
 ### Exercice 2
 
-- Calculer votre âge à la seconde près
+- Calculer votre âge en secondes 
 
 <details>
 <summary>Un indice ?</summary>
