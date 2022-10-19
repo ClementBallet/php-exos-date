@@ -1,8 +1,6 @@
 # php-exos-date
 
-Exercices sur les dates.
-
-Ressources :
+## Ressources :
 - https://www.php.net/manual/fr/book.datetime.php
 - https://www.php.net/manual/fr/ref.datetime.php
 - https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912352-exploitez-toute-la-puissance-des-fonctions-php#/id/r-7448095
@@ -12,7 +10,7 @@ Ressources :
 ## Exercices sur les dates
 ### Exercice 1
 
-- Dans un fichier, insérer le code suivant :<br> `echo "A cet instant, le timestamp est : ", time(),"<br>"` <br>La fonction `time()` renvoie le timestamp actuel (le timestamp se définit comme le système d'horodatage qui donne le nombre de temps en secondes qui s’écoule depuis le 1er janvier 1970 à 00 h).
+- Dans un fichier PHP, insérer le code suivant :<br> `echo "A cet instant, le timestamp est : ", time(),"<br>"` <br>La fonction `time()` renvoie le timestamp actuel (le timestamp se définit comme le système d'horodatage qui donne le nombre de temps en secondes qui s’écoule depuis le 1er janvier 1970 à 00 h).
 - A l'aide de la fonction `date()`, déterminer la date et l'heure du timestamp précédant.
 
 ### Exercice 2
@@ -27,7 +25,7 @@ Voir la fonction <code>mktime()</code>.
 ### Exercice 3
 
 - Vérifier si la date du 29 février 1962 a bien existé.
-- Si la date a existée alors on affiche "29 février 1962 : date valide" et à l'invers "29 février 1962 : date non valide".
+- Si la date a existée alors on affiche "29 février 1962 : date valide" et à l'inverse "29 février 1962 : date non valide".
 
 <details>
 <summary>Un indice ?</summary>
@@ -50,7 +48,7 @@ Voir les fonctions <code>mktime()</code> et <code>date()</code>.
 
 <details>
 <summary>Un indice ?</summary>
-Voir la boucle <code>for()</code> et les fonctions <code>mktime()</code> et <code>date()</code>.
+Voir la boucle <code>for()</code> et les fonctions <code>mktime()</code> et <code>date()</code>. Voir également les paramètres de la fonction <code>date()</code>. Exemple <code>date('w')</code>
 </details>
 
 ### Exercice 6
